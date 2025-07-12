@@ -1,0 +1,283 @@
+2025-06-26 14:30:47,469 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 14:30:49,452 INFO: Loaded main page.
+2025-06-26 14:30:49,468 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 14:30:51,617 INFO: Loaded iframe URL.
+2025-06-26 14:30:51,620 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 14:30:56,624 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 14:30:56,624 INFO: Test complete.
+2025-06-26 14:33:12,283 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 14:33:14,417 INFO: Loaded main page.
+2025-06-26 14:33:14,433 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 14:33:16,563 INFO: Loaded iframe URL.
+2025-06-26 14:33:16,566 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 14:33:21,582 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 14:33:21,821 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001012eceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001012e4dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000100e36260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000100e78188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x0000000100e76f0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x0000000100e72de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x0000000100ebe934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x0000000100e71834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x00000001012affd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x00000001012b323c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x0000000101291a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x00000001012b3af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x0000000101282aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x00000001012d39e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x00000001012d3b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001012e49f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 14:33:29,371 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-7d443201824sm31148085a.53 - gsmtp')
+2025-06-26 14:33:29,466 INFO: Test complete.
+2025-06-26 14:40:25,625 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 14:40:27,740 INFO: Loaded main page.
+2025-06-26 14:40:27,758 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 14:40:29,910 INFO: Loaded iframe URL.
+2025-06-26 14:40:29,911 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 14:40:34,925 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 14:40:35,219 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x000000010085ceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000100854dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001003a6260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x00000001003e8188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x00000001003e6f0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x00000001003e2de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x000000010042e934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x00000001003e1834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x000000010081ffd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x000000010082323c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x0000000100801a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x0000000100823af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x00000001007f2aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x00000001008439e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x0000000100843b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001008549f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 14:40:36,525 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-6fd7718e0afsm10617406d6.13 - gsmtp')
+2025-06-26 14:40:36,614 INFO: Test complete.
+2025-06-26 14:43:59,322 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 14:44:01,715 INFO: Loaded main page.
+2025-06-26 14:44:01,731 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 14:44:03,871 INFO: Loaded iframe URL.
+2025-06-26 14:44:03,874 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 14:44:08,889 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 14:44:09,122 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x00000001054eceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001054e4dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000105036260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000105078188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x0000000105076f0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x0000000105072de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x00000001050be934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x0000000105071834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x00000001054affd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x00000001054b323c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x0000000105491a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x00000001054b3af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x0000000105482aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x00000001054d39e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x00000001054d3b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001054e49f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 14:44:10,028 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-7d44320572dsm32308785a.69 - gsmtp')
+2025-06-26 14:44:10,106 INFO: Test complete.
+2025-06-26 14:53:32,173 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 14:53:34,550 INFO: Loaded main page.
+2025-06-26 14:53:34,570 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 14:53:36,658 INFO: Loaded iframe URL.
+2025-06-26 14:53:36,660 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 14:53:41,676 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 14:53:41,922 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000102f1ceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102f14dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000102a66260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000102aa8188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x0000000102aa6f0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x0000000102aa2de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x0000000102aee934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x0000000102aa1834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x0000000102edffd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x0000000102ee323c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x0000000102ec1a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x0000000102ee3af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x0000000102eb2aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x0000000102f039e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x0000000102f03b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x0000000102f149f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 14:53:42,895 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-7d443204beasm33462685a.65 - gsmtp')
+2025-06-26 14:53:42,992 INFO: Test complete.
+2025-06-26 18:04:10,437 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 18:04:17,029 INFO: Loaded main page.
+2025-06-26 18:04:17,042 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:04:19,249 INFO: Loaded iframe URL.
+2025-06-26 18:04:19,253 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 18:04:24,265 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 18:04:24,494 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000102880eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102878dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001023ca260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x000000010240c188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x000000010240af0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x0000000102406de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x0000000102452934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x0000000102405834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x0000000102843fd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x000000010284723c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x0000000102825a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x0000000102847af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x0000000102816aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x00000001028679e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x0000000102867b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001028789f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 18:04:25,534 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-6fd771b883csm12121306d6.39 - gsmtp')
+2025-06-26 18:04:25,614 INFO: Test complete.
+2025-06-26 18:05:18,016 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 18:05:19,808 INFO: Loaded main page.
+2025-06-26 18:05:19,818 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:05:22,148 INFO: Loaded iframe URL.
+2025-06-26 18:05:22,152 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 18:05:27,163 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 18:05:27,453 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000105340eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000105338dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104e8a260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x0000000104ecc188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x0000000104ecaf0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x0000000104ec6de4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x0000000104f12934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x0000000104ec5834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x0000000105303fd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x000000010530723c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x00000001052e5a18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x0000000105307af8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x00000001052d6aa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x00000001053279e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x0000000105327b74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001053389f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 18:05:28,421 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-6fd772e7301sm11999346d6.62 - gsmtp')
+2025-06-26 18:05:28,504 INFO: Test complete.
+2025-06-26 18:08:32,792 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 18:08:34,970 INFO: Loaded main page.
+2025-06-26 18:08:34,987 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:08:37,147 INFO: Loaded iframe URL.
+2025-06-26 18:08:37,148 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 18:08:42,164 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 18:08:42,460 ERROR: Error filling or submitting the form: Message: element not interactable
+  (Session info: chrome=138.0.7204.50)
+Stacktrace:
+0   chromedriver                        0x0000000104828eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104820dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104372260 cxxbridge1$string$len + 90252
+3   chromedriver                        0x00000001043b4188 cxxbridge1$string$len + 360372
+4   chromedriver                        0x00000001043b2f0c cxxbridge1$string$len + 355640
+5   chromedriver                        0x00000001043aede4 cxxbridge1$string$len + 338960
+6   chromedriver                        0x00000001043fa934 cxxbridge1$string$len + 649056
+7   chromedriver                        0x00000001043ad834 cxxbridge1$string$len + 333408
+8   chromedriver                        0x00000001047ebfd0 cxxbridge1$str$ptr + 2473268
+9   chromedriver                        0x00000001047ef23c cxxbridge1$str$ptr + 2486176
+10  chromedriver                        0x00000001047cda18 cxxbridge1$str$ptr + 2348924
+11  chromedriver                        0x00000001047efaf8 cxxbridge1$str$ptr + 2488412
+12  chromedriver                        0x00000001047beaa8 cxxbridge1$str$ptr + 2287628
+13  chromedriver                        0x000000010480f9e8 cxxbridge1$str$ptr + 2619212
+14  chromedriver                        0x000000010480fb74 cxxbridge1$str$ptr + 2619608
+15  chromedriver                        0x00000001048209f8 cxxbridge1$str$ptr + 2688860
+16  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 18:08:43,392 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-6fd7718dd53sm12229276d6.16 - gsmtp')
+2025-06-26 18:08:43,478 INFO: Test complete.
+2025-06-26 18:13:34,678 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 18:13:36,697 INFO: Loaded main page.
+2025-06-26 18:13:36,718 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:13:38,803 INFO: Loaded iframe URL.
+2025-06-26 18:13:38,804 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 18:13:43,817 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 18:13:44,230 INFO: TEST MODE: Form filled but not submitted.
+2025-06-26 18:13:44,307 INFO: Test complete.
+2025-06-26 18:14:39,212 INFO: Submitting form now and scheduling daily run at 5pm...
+2025-06-26 18:14:40,657 INFO: Loaded main page.
+2025-06-26 18:14:40,671 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:14:42,701 INFO: Loaded iframe URL.
+2025-06-26 18:14:42,719 ERROR: Error filling or submitting the form: Message: no such element: Unable to locate element: {"method":"tag name","selector":"form"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010501ceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000105014dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x0000000104b663ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104bad544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000104bee934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000104ba1834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000104fdffd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000104fe323c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000104fc1a18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000104fe3af8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000104fb2aa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x00000001050039e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000105003b74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001050149f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 18:14:43,729 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-6fd772e34c9sm12159896d6.73 - gsmtp')
+2025-06-26 18:16:46,081 INFO: Running in TEST mode: will print iframe URL and save iframe page source.
+2025-06-26 18:16:48,045 INFO: Loaded main page.
+2025-06-26 18:16:48,059 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:16:50,107 INFO: Loaded iframe URL.
+2025-06-26 18:16:50,107 INFO: TEST MODE: Printing iframe page source for inspection...
+2025-06-26 18:16:55,121 INFO: Iframe page source saved to iframe_page_source.html. Please inspect this file for field names/selectors.
+2025-06-26 18:16:55,555 INFO: TEST MODE: Form filled but not submitted.
+2025-06-26 18:16:55,647 INFO: Test complete.
+2025-06-26 18:17:16,402 INFO: Submitting form now and scheduling daily run at 5pm...
+2025-06-26 18:17:17,718 INFO: Loaded main page.
+2025-06-26 18:17:17,735 INFO: IFrame URL found: https://aaperks.henlab.com/744d9570-4cc9-4429-96d0-d7a9fb4198a7?id=
+2025-06-26 18:17:19,840 INFO: Loaded iframe URL.
+2025-06-26 18:17:19,854 ERROR: Error filling or submitting the form: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="first"]"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010285ceb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102854dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001023a63ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001023ed544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x000000010242e934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x00000001023e1834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x000000010281ffd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x000000010282323c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000102801a18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000102823af8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x00000001027f2aa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x00000001028439e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000102843b74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001028549f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x0000000198652c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019864db80 thread_start + 8
+
+2025-06-26 18:17:20,852 ERROR: Failed to send error email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-4a7fc13d677sm4280161cf.31 - gsmtp')

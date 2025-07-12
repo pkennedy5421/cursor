@@ -1,42 +1,50 @@
-# AI Chat Assistant with Image Generation
+# Item Search Notifier
 
-A React-based chat application that integrates with OpenAI's API to provide both text responses and image generation capabilities.
+A web application that allows users to search for specific items and receive SMS notifications when matches are found.
 
 ## Features
 
-- Real-time chat interface with OpenAI integration
-- Image generation capability
-- Modern Material-UI design
-- Responsive layout
-- Automatic image downloads
+- User registration and authentication
+- Create and manage item search requests
+- Daily automated searches using Gemini 2.5 Pro
+- SMS notifications when matches are found
+- Web interface to manage search requests
 
 ## Setup
 
 1. Clone the repository
-2. Install dependencies:
+2. Create a virtual environment:
    ```bash
-   npm install
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-3. Create a `.env` file in the root directory and add your OpenAI API key:
-   ```
-   REACT_APP_OPENAI_API_KEY=your_api_key_here
-   ```
-4. Start the development server:
+3. Install dependencies:
    ```bash
-   npm start
+   pip install -r requirements.txt
    ```
-
-## Technologies Used
-
-- React
-- Material-UI
-- OpenAI API
-- Node.js
+4. Create a `.env` file with the following variables:
+   ```
+   DATABASE_URL=sqlite:///./search.db
+   GOOGLE_API_KEY=your_gemini_api_key
+   TWILIO_ACCOUNT_SID=your_twilio_sid
+   TWILIO_AUTH_TOKEN=your_twilio_token
+   TWILIO_PHONE_NUMBER=your_twilio_phone
+   SECRET_KEY=your_secret_key
+   ```
+5. Run the application:
+   ```bash
+   uvicorn app.main:app --reload
+   ```
 
 ## Environment Variables
 
-- `REACT_APP_OPENAI_API_KEY`: Your OpenAI API key
+- `DATABASE_URL`: Database connection string
+- `GOOGLE_API_KEY`: Gemini API key
+- `TWILIO_ACCOUNT_SID`: Twilio account SID
+- `TWILIO_AUTH_TOKEN`: Twilio auth token
+- `TWILIO_PHONE_NUMBER`: Twilio phone number for sending SMS
+- `SECRET_KEY`: Secret key for JWT token generation
 
-## License
+## API Documentation
 
-MIT 
+Once the application is running, visit `/docs` for the interactive API documentation. 
